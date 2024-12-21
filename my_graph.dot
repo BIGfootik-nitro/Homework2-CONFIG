@@ -1,0 +1,20 @@
+// Commit Dependency Graph
+digraph {
+	"31f8045698b330aa2ac0362ba37391ff7d05b1d3" [label="changed configuration file
+"]
+	b623e0b02b95e9cf0e45d825f91eb24af71c03ac -> b218f5636773eb4f00b9d346305c1df3fdd5435b
+	"62696c1edcc2e6082fdda6194b525769009c34d8" [label="Update README.md
+"]
+	"136fd70fdf9a9fa5b06964f90d7005742495851d" [label="Update README.md
+"]
+	b218f5636773eb4f00b9d346305c1df3fdd5435b -> "73f64119558eccf31d54bf82708b94eb36e66ba4"
+	"136fd70fdf9a9fa5b06964f90d7005742495851d" -> "62696c1edcc2e6082fdda6194b525769009c34d8"
+	"62696c1edcc2e6082fdda6194b525769009c34d8" -> "31f8045698b330aa2ac0362ba37391ff7d05b1d3"
+	"73f64119558eccf31d54bf82708b94eb36e66ba4" [label="added file 2
+"]
+	b623e0b02b95e9cf0e45d825f91eb24af71c03ac [label="added gitignore
+"]
+	"31f8045698b330aa2ac0362ba37391ff7d05b1d3" -> b623e0b02b95e9cf0e45d825f91eb24af71c03ac
+	b218f5636773eb4f00b9d346305c1df3fdd5435b [label="added file 4
+"]
+}
